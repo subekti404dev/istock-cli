@@ -13,8 +13,11 @@ jobs:
       - name: Install dependencies
         run: npm i
 
-      - name: Install nexe
-        run: npm i nexe
+      - name: Install pkg
+        run: npm i pkg
 
       - name: Build
-        run: node node_modules/nexe --build index.js
+        run: node node_modules/pkg index.js
+
+      - name: Print
+        run: ls -la
