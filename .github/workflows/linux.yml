@@ -13,5 +13,5 @@ jobs:
       - name: Install nexe
         run: npm i nexe
 
-      # - name: Build
-      #   run: npx nexe --build index.js
+      - name: Build
+        run: nexe --build index.js
