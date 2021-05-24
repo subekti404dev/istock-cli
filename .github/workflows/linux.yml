@@ -17,7 +17,7 @@ jobs:
         run: npm i pkg
 
       - name: Build
-        run: node node_modules/pkg index.js
+        run: npx pkg index.js
 
       - name: Print
         run: ls -la
