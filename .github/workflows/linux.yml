@@ -14,4 +14,4 @@ jobs:
         run: npm i nexe
 
       - name: Build
-        run: nexe --build index.js
+        run: node node_modules/nexe --build index.js
