@@ -49,6 +49,7 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: index-linux
           asset_name: istock-linux
+          asset_content_type: application/octet-stream
 
       - name: Upload Release Asset Mac
         id: upload_release_asset_mac
@@ -59,6 +60,7 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: index-macos
           asset_name: istock-macos
+          asset_content_type: application/octet-stream
 
       - name: Upload Release Asset Win
         id: upload_release_asset_win
@@ -69,3 +71,5 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: index-win.exe
           asset_name: istock-win.exe
+          asset_content_type: application/vnd.microsoft.portable-executable
+
