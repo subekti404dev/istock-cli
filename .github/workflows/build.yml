@@ -72,4 +72,3 @@ jobs:
           asset_path: index-win.exe
           asset_name: istock-win.exe
           asset_content_type: application/vnd.microsoft.portable-executable
-
