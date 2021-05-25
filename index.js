@@ -79,6 +79,8 @@ async function main() {
     try {
       if (!options.watch || options.watch.length <= 0) throw new Error('Symbol is required')
       console.log(chalk.grey('==============================='));
+      console.log(chalk.grey('SMBL      PRICE            LAST'));
+      console.log(chalk.grey('==============================='));
       for (let symbol of options.watch) {
 
         const log   = console.draft(`${chalk.green(symbol)}     ${chalk.yellow('Rp 0')}`); 
