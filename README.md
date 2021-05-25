@@ -13,4 +13,7 @@ istock -p bbni # change bbni with another symbol
 
 # search stock list
 istock -s "keyword" # change keyword with your keyword
+
+# watch stock price
+istock -w [symbol...]
 ```
